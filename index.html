@@ -1,0 +1,132 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>HTML CHECKPOINT</title>
+    <!-- This an internal css -->
+    <!-- <style>
+      a {
+        color: red;
+        text-decoration: none;
+      }
+      h1 {
+        color: green;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- This is the header Section  -->
+    <header>
+      <br />
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About me</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+        <br />
+        <br />
+        <label>Search :</label>
+        <input type="search" />
+      </nav>
+    </header>
+    <hr size="2" noshade="1" color="red" />
+    <br />
+    <!-- This is the main Section -->
+    <center>
+      <main>
+        <section id="home">
+          <img src="/profile.png" alt="My profile Photo" width="120px" />
+          <div class="box">
+            <p>
+              I'm a new Student <br />
+              Soon I will be a Web Developer
+            </p>
+          </div>
+          <p>hello everyone</p>
+        </section>
+        <hr size="2" noshade="1" color="red" />
+        <section id="about">
+          <!-- This is an inline css -->
+          <!-- <h1 style="color: blue">About me</h1> -->
+          <h1 class="title">About me</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </section>
+        <hr size="2" noshade="1" color="red" />
+        <section id="work">
+          <h1 class="title">Work</h1>
+          <table border="1">
+            <tr>
+              <th>Front End</th>
+              <th>Back End</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>DB</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>NODE JS</td>
+            </tr>
+            <tr>
+              <td>JAVASCRIPT</td>
+              <td>EXPRESS JS</td>
+            </tr>
+            <tr>
+              <td>REACT JS</td>
+              <td>REST API</td>
+            </tr>
+          </table>
+        </section>
+        <hr size="2" noshade="1" color="red" />
+        <section id="resume">
+          <h1 class="newTitle">Resume</h1>
+          <iframe
+            width="500"
+            height="300"
+            src="https://www.youtube.com/embed/olJOZp57FWM?si=5Qi0Uxk9Fb7BKeTD"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <hr size="2" noshade="1" color="red" />
+        <section id="contact">
+          <h1 class="newTitle">Contact</h1>
+          <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Type your name " />
+            <br />
+            <label> Birthday</label>
+            <input type="date" />
+            <br />
+            <label> Email:</label>
+            <input type="text" placeholder="Type your Email" />
+            <br />
+            <button type="submit">Confirm</button>
+          </form>
+        </section>
+      </main>
+      <hr size="2" noshade="1" color="red" />
+    </center>
+    <!-- This is the footer Section -->
+    <footer>
+      <p>Copyright 2023 reserved</p>
+      <select>
+        <option>FR</option>
+        <option>EN</option>
+      </select>
+    </footer>
+  </body>
+</html>
